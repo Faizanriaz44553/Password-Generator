@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(./WhatsApp\ Image\ 2023-11-26\ at\ 04.32.26_25a4914f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    width: 380px;
+    height: 380px;
+    background-color: white;
+    margin-top: 50px;
+    border: 5px solid #01191E;
+    border-radius: 50px;
+}
+.text-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+.result{
+    padding: 15px 0px 0px 80px;
+    border: 2px solid #01191E;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    height: 60px;
+}
+.generate{
+    padding: 8px 80px 8px 80px;
+    font-size: 1.2rem;
+    border: transparent;
+    border-radius: 10px;
+    background-color: #A2D0CE;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+}
+.generate:hover {
+    background-color: transparent;
+    color: #01191E;
+    box-shadow: 0 0 10px 0 #A2D0CE, /* Shadow color with blur effect */
+    0 0 10px 0 #A2D0CE, /* Shadow color with blur effect */
+    0 0 10px 0 #A2D0CE, /* Shadow color with blur effect */
+    0 0 10px 0 #A2D0CE; /* Shadow color with blur effect */
+border: none; /* Border color */
+}
+.copy-password{
+    font-size: 1.7rem;
+    color: #01191E;
+    margin-left: 10px;
+    cursor: pointer;
+    transition-duration: 0.1s; /* Safari */
+    transition-duration: 0.1s;
+}
+.copy-password:hover {
+    color:#A2D0CE ;
+}
+.heading{
+    color: #01191E;
+    text-align: center;
+    margin-top: 40px;
+    font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
